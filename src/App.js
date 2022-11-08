@@ -1,10 +1,11 @@
 import UseEffect from "./hooks/UseEffect";
-import "./App.css";
+import UseRef from "./hooks/UseRef";
 
 function App() {
     return (
         <div className="App">
-            <UseEffect />
+            {/* <UseEffect /> */}
+            <UseRef />
         </div>
     );
 }
