@@ -1,9 +1,9 @@
-import UseMemo from "./hooks/UseMemo";
+import UseCallBack from "./hooks/UseCallBack";
 
 function App() {
     return (
         <div className="App">
-            <UseMemo />
+            <UseCallBack />
         </div>
     );
 }
