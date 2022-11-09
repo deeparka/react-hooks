@@ -1,5 +1,4 @@
 import UseEffect from "./hooks/UseEffect";
-import "./App.css";
 
 function App() {
     return (
