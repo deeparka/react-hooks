@@ -1,14 +1,11 @@
 import React from "react";
-import FunctionContextComponent from "./FunctionContextComponent";
-import { ThemeProvider } from "./ThemeContext";
+import UseReducer from "./hooks/UseReducer";
 
 function App() {
     return (
-        <>
-            <ThemeProvider>
-                <FunctionContextComponent />
-            </ThemeProvider>
-        </>
+        <div>
+            <UseReducer />
+        </div>
     );
 }
 
