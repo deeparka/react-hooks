@@ -1,15 +1,10 @@
 import React from "react";
-import useLocalStorage from "./custom hook/useLocalStorage";
+import UseTransition from "./hooks/UseTransition";
 
 function App() {
-    const [name, setName] = useLocalStorage("name", "");
     return (
         <div>
-            <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-            />
+            <UseTransition />
         </div>
     );
 }
